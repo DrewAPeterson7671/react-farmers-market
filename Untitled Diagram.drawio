@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T17:13:08.590Z" agent="5.0 (X11)" etag="lo6ylrChxU3elpvSBv6o" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T18:05:05.311Z" agent="5.0 (X11)" etag="euK9zA8exKTKpUBCRDuX" version="14.7.7" type="github">
   <diagram id="ut6MhMl0KK6n7bzSY2bd" name="Page-1">
     <mxGraphModel dx="929" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ITOi9HRvO5zLatM1tq2a-1" value="Header" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="90" width="160" height="40" as="geometry" />
+          <mxGeometry x="320" y="90" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ITOi9HRvO5zLatM1tq2a-1" target="ITOi9HRvO5zLatM1tq2a-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-3" value="Schedule" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="240" y="145" width="320" height="160" as="geometry" />
+          <mxGeometry x="240" y="140" width="320" height="165" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-4" value="Products Control" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="10" y="320" width="830" height="550" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-5" value="Schedule Header" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="320" y="180" width="160" height="30" as="geometry" />
+          <mxGeometry x="320" y="170" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ITOi9HRvO5zLatM1tq2a-6" value="&lt;div&gt;Day&lt;/div&gt;&lt;div&gt;Location&lt;/div&gt;&lt;div&gt;Hours&lt;/div&gt;&lt;div&gt;Booth&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="320" y="220" width="160" height="70" as="geometry" />
+        <mxCell id="ITOi9HRvO5zLatM1tq2a-6" value="Schedule List" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="320" y="210" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-7" value="Product Header" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="50" y="360" width="750" height="30" as="geometry" />
@@ -69,6 +69,12 @@
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-24" value="Delete Button" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="577.5" y="750" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qyocGgx2e84D7IZy7Mkw-1" value="Date" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qyocGgx2e84D7IZy7Mkw-2" value="Date" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="105" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
