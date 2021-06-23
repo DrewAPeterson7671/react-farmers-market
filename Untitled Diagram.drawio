@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T18:05:30.262Z" agent="5.0 (X11)" etag="T-Vl4ibfXbBdrEIf7fQh" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T21:15:53.158Z" agent="5.0 (X11)" etag="akERy0I67xfUtwI778xP" version="14.7.7" type="github">
   <diagram id="ut6MhMl0KK6n7bzSY2bd" name="Page-1">
-    <mxGraphModel dx="929" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1154" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="ITOi9HRvO5zLatM1tq2a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ITOi9HRvO5zLatM1tq2a-1" target="ITOi9HRvO5zLatM1tq2a-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ITOi9HRvO5zLatM1tq2a-3" value="Schedule" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="ITOi9HRvO5zLatM1tq2a-3" value="Schedule Controller" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="240" y="140" width="320" height="170" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-4" value="Products Control" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
@@ -56,25 +56,31 @@
           <mxGeometry x="50" y="720" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-20" value="New Product" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="295" y="400" width="260" height="440" as="geometry" />
+          <mxGeometry x="285" y="400" width="175" height="440" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-21" value="Submit Button" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="305" y="790" width="205" height="30" as="geometry" />
+          <mxGeometry x="305" y="790" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-22" value="Product Detail" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="570" y="400" width="260" height="440" as="geometry" />
+          <mxGeometry x="470" y="400" width="180" height="440" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-23" value="Edit Button" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="577.5" y="790" width="205" height="30" as="geometry" />
+          <mxGeometry x="480" y="790" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ITOi9HRvO5zLatM1tq2a-24" value="Delete Button" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="577.5" y="750" width="205" height="30" as="geometry" />
+          <mxGeometry x="480" y="750" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qyocGgx2e84D7IZy7Mkw-1" value="Date" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="qyocGgx2e84D7IZy7Mkw-1" value="Date" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="350" y="230" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qyocGgx2e84D7IZy7Mkw-2" value="Date" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="qyocGgx2e84D7IZy7Mkw-2" value="Date" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="350" y="260" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gLuCfQ-Zwd36W-3CCUUg-1" value="Edit Product" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="660" y="400" width="175" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gLuCfQ-Zwd36W-3CCUUg-2" value="Submit Button" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="680" y="790" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
