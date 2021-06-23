@@ -1,9 +1,15 @@
 import React from 'react';
+import Header from './Header';
+import ScheduleController from './ScheduleController';
+import ProductController from './ProductController';
+
 
 function App() {
   return (
     <React.Fragment>
-      <h3>Avery's Organics</h3>
+      <Header />
+      <ScheduleController />
+      <ProductController />
     </React.Fragment>
   );
 }
