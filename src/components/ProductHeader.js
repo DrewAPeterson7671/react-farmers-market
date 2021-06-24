@@ -1,11 +1,11 @@
 import React from 'react';
 
-function ProductHeader() {
+function ProductHeaderList() {
   return(
     <React.Fragment>
-      <h2>Our Products</h2>
+      <h4>Product List Header</h4>
     </React.Fragment>
   );
 }
 
-export default ProductHeader;
+export default ProductHeaderList;
