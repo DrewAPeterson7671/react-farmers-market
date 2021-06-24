@@ -1,28 +1,25 @@
 import React from 'react';
-import ProductHeaderList from './ProductListHeader';
 import ProductMonth from './ProductMonth';
-import Product from './Product';
+import PropTypes from "prop-types";
 
 
-function ProductList() {
+function ProductList(props) {
   return(
     <React.Fragment>
       <h4>Product List Module</h4>
-      <ProductHeaderList />
-      <ProductMonth />
-      <Product />
-      <Product />
-      <Product />
-      <ProductMonth />
-      <Product />
-      <Product />
-      <Product />
-      <ProductMonth />
-      <Product />
-      <Product />
-      <Product />
+      <hr />
+      {props.availableProduce.map((product, index) =>
+        <ProductMonth
+          month={product.month}
+          selection={product.selection}
+          key={index} />
+      )}
     </React.Fragment>
   );
+}
+
+ProductList.propTypes = {
+  availableProduce: PropTypes.object
 }
 
 
