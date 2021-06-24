@@ -1,10 +1,26 @@
 import React from 'react';
+import ProductHeaderList from './ProductListHeader';
+import ProductMonth from './ProductMonth';
+import Product from './Product';
 
 
 function ProductList() {
   return(
     <React.Fragment>
-      <h3>Product List Module</h3>
+      <h4>Product List Module</h4>
+      <ProductHeaderList />
+      <ProductMonth />
+      <Product />
+      <Product />
+      <Product />
+      <ProductMonth />
+      <Product />
+      <Product />
+      <Product />
+      <ProductMonth />
+      <Product />
+      <Product />
+      <Product />
     </React.Fragment>
   );
 }
