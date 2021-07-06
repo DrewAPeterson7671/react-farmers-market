@@ -7,7 +7,6 @@ class ScheduleController extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      selectedDate: null,
       marketSchedule: [  
         {  
            day: "Sunday",
