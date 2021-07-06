@@ -281,6 +281,7 @@ class ProductController extends React.Component {
 
     }
    }
+
   
 
   render(){
@@ -292,6 +293,7 @@ class ProductController extends React.Component {
         <ProductDetail />
         <EditProduct />
         <ProductList availableProduce={this.state.availableProduce}/>
+        <button>Add Product</button>
       </React.Fragment>
     );
   }

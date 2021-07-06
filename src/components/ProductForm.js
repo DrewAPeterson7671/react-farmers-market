@@ -4,8 +4,18 @@ function ProductForm() {
   return(
     <React.Fragment>
       <h4>Product Form</h4>
-      <p>Month:</p>
-      <p>Add Product:</p>
+      <form>
+        <input
+          type='text'
+          name='month'
+          placeholder='Month' />
+        <input
+          type='text'
+          name='product'
+          placeholder='Products Available' />
+        <button>Add Another Product</button>
+        <button type='submit'>Submit</button>
+      </form>
     </React.Fragment>
   );
 }
