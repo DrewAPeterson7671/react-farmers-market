@@ -10,6 +10,9 @@ class ProductController extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      formVisibleOnPage: false,
+      selectedProduct: null,
+      editing: false,
       availableProduce: [  
         {  
            month: "January",
@@ -281,17 +284,48 @@ class ProductController extends React.Component {
 
     }
    }
-  
+
+   handleClick = () => {
+      if (this.state.selectedProduct != null) {
+        this.setState({
+           formVisibleOnPage: false,
+           selectedProduct: null,
+           editing: false
+        });
+     } else {
+        this.setState(prevState => ({
+           formVisibleOnPage: !prevState.formVisibleOnPage
+        }));
+     }
+   }
 
   render(){
+
+   let currentlyVisibleState = null;
+   let buttonText = null;
+
+   if (this.state.editing) {
+      currentlyVisibleState = <EditProduct />
+      buttonText = "Return to Product List";
+   } else if (this.state.selectedProduct != null) {
+      currentlyVisibleState = <ProductDetail />
+      buttonText = "Return to Product List";
+   } else if (this.state.formVisibleOnPage) {
+      currentlyVisibleState = <NewProduct />
+      buttonText = "Return to Product List";
+   } else {
+      currentlyVisibleState = <ProductList availableProduce={this.state.availableProduce} />
+      buttonText = "Add Produce";
+   }
+
+
+
     return(
       <React.Fragment>
         <h2>Product Controller</h2>
         <ProductHeader />
-        <NewProduct />
-        <ProductDetail />
-        <EditProduct />
-        <ProductList availableProduce={this.state.availableProduce}/>
+        {currentlyVisibleState}
+        <button onClick={this.handleClick}>{buttonText}</button>
       </React.Fragment>
     );
   }
