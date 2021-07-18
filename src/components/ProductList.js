@@ -19,7 +19,7 @@ function ProductList(props) {
 }
 
 ProductList.propTypes = {
-  availableProduce: PropTypes.object
+  availableProduce: PropTypes.array
 }
 
 

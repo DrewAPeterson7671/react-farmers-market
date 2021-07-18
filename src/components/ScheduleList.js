@@ -20,7 +20,7 @@ function ScheduleList(props) {
 }
 
 ScheduleList.propTypes = {
-  marketSchedule: PropTypes.object
+  marketSchedule: PropTypes.array
 };
 
 export default ScheduleList;

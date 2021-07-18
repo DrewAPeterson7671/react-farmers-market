@@ -6,10 +6,9 @@ function ProductMonth(props) {
   return(
     <React.Fragment>
       <h4>{props.month}</h4>
-      {props.selection.map((product, index) => 
+      {props.selection.map((product) => 
         <Product 
-          product={product}
-          key={index} />
+          product={product} />
       )}
       <hr />
     </React.Fragment>
