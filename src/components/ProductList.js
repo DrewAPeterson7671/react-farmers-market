@@ -8,11 +8,11 @@ function ProductList(props) {
     <React.Fragment>
       <h4>Product List Module</h4>
       <hr />
-      {props.availableProduce.map((product, index) =>
+      {props.availableProduce.map((product) =>
         <ProductMonth
           month={product.month}
           selection={product.selection}
-          key={index} />
+          key={product.id} />
       )}
     </React.Fragment>
   );
