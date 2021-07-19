@@ -1,6 +1,7 @@
 import React from 'react';
 import Product from './Product';
 import PropTypes from 'prop-types';
+import { v4 } from 'uuid';
 
 function ProductMonth(props) {
   return(
@@ -8,7 +9,8 @@ function ProductMonth(props) {
       <h4>{props.month}</h4>
       {props.selection.map((product) => 
         <Product 
-          product={product} />
+          product={product} 
+          key={v4()} />
       )}
       <hr />
     </React.Fragment>
